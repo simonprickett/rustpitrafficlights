@@ -12,7 +12,7 @@ Attach the traffic lights so that they are connected to GPIO 9, 10, 11 ([Broadco
 
 ## Install Rust
 
-Installing Rust also installs Cargo, a build system and package manager for Rust projects.
+Installing Rust also installs [Cargo](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html), a build system and package manager for Rust projects.
 
 Follow the installation process [here](https://www.rust-lang.org/tools/install), which at the time of writing looks like this:
 
