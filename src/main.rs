@@ -10,7 +10,7 @@ fn main() {
     ctrlc::set_handler(move || {
         all_lights_off();
         process::exit(0);
-    });
+    }).unwrap();
 
     all_lights_off();
 
