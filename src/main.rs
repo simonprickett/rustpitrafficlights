@@ -1,18 +1,18 @@
 use std::{process, thread, time};
 use ctrlc;
 
-fn allLightsOff() {
+fn all_lights_off() {
     // TODO turn all the lights off...
     println!("All lights off");
 }
 
 fn main() {
     ctrlc::set_handler(move || {
-        allLightsOff();
+        all_lights_off();
         process::exit(0);
     });
 
-    allLightsOff();
+    all_lights_off();
 
     loop {
         // Red
